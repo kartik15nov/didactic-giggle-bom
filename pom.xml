@@ -11,9 +11,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>org.ub</groupId>
+    <groupId>com.ub</groupId>
     <artifactId>didactic-giggle-bom</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.13-SNAPSHOT</version>
+
+    <description>Brewery BOM Project - common deps for brewery services</description>
 
     <packaging>pom</packaging>
 
@@ -38,8 +40,8 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>Unknown Brain</name>
-            <url>https://github.com/kartik15nov/didactic-giggle-bom</url>
+            <name>GitHub kartik15nov Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/kartik15nov/didactic-giggle-bom</url>
         </repository>
     </distributionManagement>
 
